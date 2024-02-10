@@ -1,0 +1,7 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}

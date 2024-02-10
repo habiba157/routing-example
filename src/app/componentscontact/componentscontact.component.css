@@ -1,0 +1,46 @@
+.contact {
+    margin-top: 50px;
+    min-height: calc(-106px + 100vh);
+
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: black;
+}
+
+input {
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding: 0;
+    cursor: text;
+    transition: all 0.2s;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus+label {
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+}
+
+input:not(placeholder-shown)+label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: top;
+    transform: translate(0, 3rem) scale(1);
+}
+label {
+    color: #1abc9c;
+    margin-bottom: 7px;
+    opacity: 0;
+    transition: all 0.2s;
+}

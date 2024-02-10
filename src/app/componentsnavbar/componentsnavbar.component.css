@@ -1,0 +1,9 @@
+nav{
+    background-color: var(--second-color);
+}
+nav a:active{
+    background-color: #1abc9c;
+}
+nav a:visited{
+    background-color: #1abc9c;
+}
